@@ -5,3 +5,11 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+
+ 8.times do |index|
+   Company.create(
+     name: Faker::Company.name,
+     organisation_nr: Faker::Company.swedish_organisation_number,
+   )
+ end

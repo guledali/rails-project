@@ -31,6 +31,7 @@ gem 'bootsnap', '>= 1.4.2', require: false
 # custom packages
 gem 'bootstrap', '~> 4.3', '>= 4.3.1'
 gem 'jquery-rails'
+gem 'faker', '~> 1.9', '>= 1.9.5'
 
 
 group :development, :test do
